@@ -52,7 +52,7 @@ integrations:
 
     - integrationName: ship-slack
       type: slack
-      recipients: 
+      recipients:    
         - "#hitchcock1-public"
         - pvt-channel
       
