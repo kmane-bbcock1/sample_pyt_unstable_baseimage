@@ -37,8 +37,8 @@ integrations:
     - integrationName: email
       type: email
       recipients: 
-        - shiphitchcock2@gmail.com
-        - vidya@shippable.com
+        - shiphitchcock1@gmail.com
+        - varsha@shippable.com
       
       on_pull_request: always
       on_start: always
@@ -59,9 +59,9 @@ integrations:
     - integrationName: irc
       type: irc
       recipients: 
-        - "chat.freenode.net#test-cock"
-        - "chat.freenode.net#hitchcock2-irc"
-        - "chat.freenode.net#test-irc"
+        - "chat.freenode.net#test-cock1"
+       # - "chat.freenode.net#hitchcock2-irc"
+        #- "chat.freenode.net#test-irc"
       
       on_start: always
       on_pull_request: always
@@ -72,8 +72,8 @@ integrations:
     - integrationName: ship-hipchat
       type: hipchat
       recipients: 
-        - '#pvt-room'
-        - '@shiphitchcock2'
+        - '#hitchcock1pvt'
+        - '@shiphitchcock1'
       
       on_start: always
       on_pull_request: always
